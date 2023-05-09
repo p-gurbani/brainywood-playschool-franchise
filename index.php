@@ -1,3 +1,12 @@
+<!-- This code is written by Pankaj Gurbani for Brainywood 
+  and is not meant to be modified, copied or re-distributed 
+  in any form or way without prior consent from the author. 
+
+  Author details
+  ----------------
+  Name: Pankaj Gurbani
+  Email: pankajgurbani.connect@gmail.com
+-->
 <?php
 if (isset($_POST['registersubmit'])) {
   // Get form data
@@ -1164,3 +1173,12 @@ if (isset($_POST['registersubmit'])) {
     </script>
   </body>
 </html>
+<!-- This code is written by Pankaj Gurbani for Brainywood 
+  and is not meant to be modified, copied or re-distributed 
+  in any form or way without prior consent from the author. 
+
+  Author details
+  ----------------
+  Name: Pankaj Gurbani
+  Email: pankajgurbani.connect@gmail.com
+-->
