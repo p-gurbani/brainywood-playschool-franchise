@@ -1092,7 +1092,7 @@ if (isset($_POST['registersubmit'])) {
       class LeadForm extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <form class="registration-form card" action="/action_page.php">
+          <form class="registration-form card" method="post" action="">
             <div class="frm-input-container flex flex-col gap-3 m-8">
               <!-- Name -->
               <div class="frm-input-wrapper">
