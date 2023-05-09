@@ -1,3 +1,32 @@
+<?php
+if (isset($_POST['registersubmit'])) {
+  // Get form data
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $investment = $_POST['investment'];
+  $mobileno = $_POST['mobileno'];
+  $alternatemobileno = $_POST['alternatemobileno'];
+  $job = $_POST['job'];
+  $city = $_POST['city'];
+
+  // Set up email
+  $to = "youremail@example.com"; // Replace with your email address
+  $subject = "New lead for playschool franchise: $name";
+  $message = "Name: $name\nEmail: $email\nInvestment: $investment\nMobile No.: $mobileno\nAlternate Mobile No.: $alternatemobileno\nJob Title: $job\nLocation (City): $city";
+  
+  // Set the email headers
+  $headers = "From: $name <$email>" . "\r\n" . "Reply-To: $email";
+
+  // Send email
+  if (mail($to, $subject, $message, $headers)) {
+    // echo "<p class='success'>Thank you for registering. We will contact you soon.</p>";
+    // Redirect to thankyou.html
+    header('Location: thankyou.html');
+    exit();
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -1098,7 +1127,7 @@
 
                 <!-- Alternate Mobile No. -->
                 <div class="frm-input-wrapper">
-                  <label for="mobileno">Alternate Mobile No.</label>
+                  <label for="alternatemobileno">Alternate Mobile No.</label>
                   <input
                     type="tel"
                     id="alternatemobileno"
