@@ -1109,13 +1109,13 @@ if (isset($_POST['registersubmit'])) {
               <!-- Investment -->
               <div class="frm-input-wrapper">
                 <label for="investment">Investment *</label>
-                <input
-                  required
-                  type="number"
-                  step="500"
-                  id="investment"
-                  name="investment"
-                />
+                <div class="select-style">
+                  <select required id="investment" name="investment">
+                    <option value="below 5 lakh">below 5 lakh</option>
+                    <option value="5-10 lakh">5-10 lakh</option>
+                    <option value="10lakh+">10lakh+</option>
+                  </select>
+                </div>
               </div>
 
               <div class="frm-input-row">
