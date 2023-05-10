@@ -19,7 +19,7 @@ if (isset($_POST['registersubmit'])) {
   $city = $_POST['city'];
 
   // Set up email
-  $to = "youremail@example.com"; // Replace with your email address
+  $to = "littlebirbalplayschool@gmail.com"; // Email address to send the email to
   $subject = "New lead for playschool franchise: $name";
   $message = "Name: $name\nEmail: $email\nInvestment: $investment\nMobile No.: $mobileno\nAlternate Mobile No.: $alternatemobileno\nJob Title: $job\nLocation (City): $city";
   
@@ -28,7 +28,6 @@ if (isset($_POST['registersubmit'])) {
 
   // Send email
   if (mail($to, $subject, $message, $headers)) {
-    // echo "<p class='success'>Thank you for registering. We will contact you soon.</p>";
     // Redirect to thankyou.html
     header('Location: thankyou.html');
     exit();
@@ -101,55 +100,79 @@ if (isset($_POST['registersubmit'])) {
             <!-- Slides -->
             <div class="swiper-slide">
               <div class="testimonial">
-                <img src="/img/testimonial-logo.svg" alt="Logo 1" />
                 <p class="quote text-small-body text-small-body-color">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Etiam eget mauris nibh. Donec venenatis, nisl ut euismod
-                  rutrum, lectus nulla aliquam enim, a rhoncus sapien metus eget
-                  velit."
+                  "Great job on creating an educational application focused on
+                  memory techniques! Brainywood is a valuable tool for students
+                  and learners of all ages to enhance their memory retention and
+                  recall abilities. The app is well-designed and easy to
+                  navigate, with clear explanations of various memory techniques
+                  and practical exercises to apply them. Overall, Brainywood is
+                  an excellent resource for anyone looking to improve their
+                  memory skills. Keep up the good work! All the best Brainywood
+                  Team!"
                 </p>
                 <div class="author">
-                  <img src="/img/testimonial-1-person.png" alt="Person 1" />
-                  <div>
-                    <p class="author-name">John Doe</p>
-                    <p class="author-designation">UI Designer</p>
-                  </div>
+                  <img
+                    src="/img/testimonials/kalpana.jpeg"
+                    alt="Kalpna Gosavi"
+                  />
+                  <p class="author-name">Kalpna Sunil Gosavi</p>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="testimonial">
-                <img src="/img/testimonial-logo.svg" alt="Logo 1" />
                 <p class="quote text-small-body text-small-body-color">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Etiam eget mauris nibh. Donec venenatis, nisl ut euismod
-                  rutrum, lectus nulla aliquam enim, a rhoncus sapien metus eget
-                  velit."
+                  "I, Rewendra Kumar gaikwad, State zonal-partner franchise
+                  chattisgarh appreciate Brainywood great initiative toward
+                  education. This is a eco-system of various cources on a single
+                  plateform. Vinod sharma is a great personality in the field of
+                  memorisation skill program and i am very happy to be a part of
+                  this."
                 </p>
                 <div class="author">
-                  <img src="/img/testimonial-1-person.png" alt="Person 1" />
-                  <div>
-                    <p class="author-name">John Doe</p>
-                    <p class="author-designation">UI Designer</p>
-                  </div>
+                  <img
+                    src="/img/testimonials/revendra.jpeg"
+                    alt="Rewendra Kumar Gaikwad"
+                  />
+                  <p class="author-name">Rewendra Kumar Gaikwad</p>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="testimonial">
-                <img src="/img/testimonial-logo.svg" alt="Logo 1" />
                 <p class="quote text-small-body text-small-body-color">
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Etiam eget mauris nibh. Donec venenatis, nisl ut euismod
-                  rutrum, lectus nulla aliquam enim, a rhoncus sapien metus eget
-                  velit."
+                  "ब्रेनीवुड एप्लिकेशन बच्चों की मैमोरी ग्रोथ के लिए बहुत
+                  इफैक्टिव है ,कंपनी ने बहुत अच्छा इनीसिएटिव लिया है , और
+                  बेहतरीन ट्रैनिंग सपोर्ट कस्टूमर सर्विस भी प्रदान कर रही है
+                  ,भारत के हर बच्चे और उनके परिजनों के लिए अब पढाई मैं सबसे बड़ी
+                  समस्या से छुटकारा मिलेगा भारत शिक्षा के क्षेत्र मै बहुत आगे
+                  बढने के लिए ब्रेनीवुड ब्रेनसाइंस को जरुर अपनायेगा ,
+                  शुभकामनाएं"
                 </p>
                 <div class="author">
-                  <img src="/img/testimonial-1-person.png" alt="Person 1" />
-                  <div>
-                    <p class="author-name">John Doe</p>
-                    <p class="author-designation">UI Designer</p>
-                  </div>
+                  <img
+                    src="/img/testimonials/deendayal.jpeg"
+                    alt="Deendayal Singh"
+                  />
+                  <p class="author-name">Deendayal Singh</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <p class="quote text-small-body text-small-body-color">
+                  "Brainywood learning app is very useful to students for
+                  studying and skills development. As new education policy of
+                  government it's very needful to not only students but also
+                  schools and teachers."
+                </p>
+                <div class="author">
+                  <img
+                    src="/img/testimonials/rhushik.jpeg"
+                    alt="Rhushik Kumar Vagasiya"
+                  />
+                  <p class="author-name">Rhushik Kumar Vagasiya</p>
                 </div>
               </div>
             </div>
@@ -924,19 +947,34 @@ if (isset($_POST['registersubmit'])) {
             information you need to make an informed decision.
           </p>
           <div class="email-link-container">
-            <a class="email-link" href="mailto:email@brainywood.com"
-              >email@brainywood.com</a
+            <a class="email-link" href="mailto:info@brainywoodindia.com"
+              >info@brainywoodindia.com</a
             >
           </div>
           <div class="sec-social-icons-container">
-            <a href="#">
+            <a
+              href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2FBrainywoodofficial"
+              target="_blank"
+            >
               <img src="/img/icons/facebook.png" class="social-icon" />
             </a>
-            <a href="#">
-              <img src="/img/icons/Twitter.png" class="social-icon" />
+            <a
+              href="https://www.instagram.com/brainywoodofficial/"
+              target="_blank"
+            >
+              <img src="/img/icons/Instagram.svg" class="social-icon" />
             </a>
-            <a href="#">
-              <img src="/img/icons/Telegram.png" class="social-icon" />
+            <a
+              href="https://www.youtube.com/channel/UCTqMvfVzwHb9v59VmdPEi3g"
+              target="_blank"
+            >
+              <img src="/img/icons/YouTube.svg" class="social-icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/brainywoodofficial/"
+              target="_blank"
+            >
+              <img src="/img/icons/LinkedIn.svg" class="social-icon" />
             </a>
           </div>
         </div>
@@ -975,19 +1013,34 @@ if (isset($_POST['registersubmit'])) {
             </p>
             <div class="popup-links">
               <div class="email-link-container">
-                <a class="email-link" href="mailto:email@brainywood.com"
-                  >email@brainywood.com</a
+                <a class="email-link" href="mailto:info@brainywoodindia.com"
+                  >info@brainywoodindia.com</a
                 >
               </div>
               <div class="sec-social-icons-container">
-                <a href="#">
+                <a
+                  href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2FBrainywoodofficial"
+                  target="_blank"
+                >
                   <img src="/img/icons/facebook.png" class="social-icon" />
                 </a>
-                <a href="#">
-                  <img src="/img/icons/Twitter.png" class="social-icon" />
+                <a
+                  href="https://www.instagram.com/brainywoodofficial/"
+                  target="_blank"
+                >
+                  <img src="/img/icons/Instagram.svg" class="social-icon" />
                 </a>
-                <a href="#">
-                  <img src="/img/icons/Telegram.png" class="social-icon" />
+                <a
+                  href="https://www.youtube.com/channel/UCTqMvfVzwHb9v59VmdPEi3g"
+                  target="_blank"
+                >
+                  <img src="/img/icons/YouTube.svg" class="social-icon" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/brainywoodofficial/"
+                  target="_blank"
+                >
+                  <img src="/img/icons/LinkedIn.svg" class="social-icon" />
                 </a>
               </div>
             </div>
@@ -998,6 +1051,18 @@ if (isset($_POST['registersubmit'])) {
         </div>
       </div>
     </div>
+
+    <a
+      class="whatsapp-widget"
+      target="_blank"
+      href="https://api.whatsapp.com/send?phone=917240077077"
+    >
+      <img
+        class="whatsapp-icon"
+        src="/img/whatsapp-icon.svg"
+        alt="WhatsApp Icon"
+      />
+    </a>
 
     <script>
       // Testimonials swiper
