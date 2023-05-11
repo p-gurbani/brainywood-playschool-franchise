@@ -176,6 +176,20 @@ if (isset($_POST['registersubmit'])) {
                 </div>
               </div>
             </div>
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <p class="quote text-small-body text-small-body-color">
+                  "Hello, guys myself Manish agrawal a part of brainywood brain, I am so lucky to have a part of this. Every child to join this because we have to get the chance to in hence our knowledge know how to remember the things related to studies."
+                </p>
+                <div class="author">
+                  <img
+                    src="/img/testimonials/manish.jpeg"
+                    alt="Manish Agarwal"
+                  />
+                  <p class="author-name">Manish Agarwal</p>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- If we need pagination -->
           <div class="swiper-pagination swiper-pagination-1"></div>
