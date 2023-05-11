@@ -293,6 +293,8 @@ p.subtitle {
   height: 45px;
   border-radius: 50%;
   margin-right: 10px;
+  object-position: top;
+  object-fit: cover;
 }
 .author p {
   text-align: left;
@@ -799,6 +801,24 @@ a.email-link {
   border-radius: 11px !important;
 }
 
+/* Whatsapp */
+.whatsapp-icon {
+  width: 30px;
+  margin-bottom: -2px;
+}
+.whatsapp-widget {
+  background: #ffffff;
+  border: 0.15px solid #002f80;
+  box-shadow: 0px 9px 19px -4px rgba(0, 47, 128, 0.05);
+  border-radius: 50%;
+  padding: 14px;
+  z-index: 999;
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+}
+/* /Whatsapp */
+
 /* Extra small devices (phones, 320px and up) */
 @media only screen and (min-width: 320px) and (max-width: 380px) {
   .above-the-fold {
@@ -826,7 +846,7 @@ a.email-link {
   justify-content: center;
 }
 .ty-container h2 {
-  margin: 0px
+  margin: 0px;
 }
 .ty-msg-container {
   display: flex;
@@ -872,6 +892,9 @@ a.email-link {
   .wju-img-container,
   .wju-content {
     flex: 1;
+  }
+  .wju-content h2 {
+    margin-top: 5px;
   }
   .iebs-cards-container {
     flex-direction: row;
