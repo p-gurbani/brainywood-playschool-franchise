@@ -317,11 +317,21 @@ p.subtitle {
 
 /* News articles */
 .swiper-3 .swiper-wrapper {
-  padding: 20px;
+  padding: 20px 0px;
   display: flex;
 }
 .news-article-card {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.news-publication img {
+  height: 20px;
+}
+.news-link {
+  text-decoration: none;
+  color: black;
 }
 /* /News articles */
 
