@@ -179,7 +179,10 @@ if (isset($_POST['registersubmit'])) {
             <div class="swiper-slide">
               <div class="testimonial">
                 <p class="quote text-small-body text-small-body-color">
-                  "Hello, guys myself Manish agrawal a part of brainywood brain, I am so lucky to have a part of this. Every child to join this because we have to get the chance to in hence our knowledge know how to remember the things related to studies."
+                  "Hello, guys myself Manish agrawal a part of brainywood brain,
+                  I am so lucky to have a part of this. Every child to join this
+                  because we have to get the chance to in hence our knowledge
+                  know how to remember the things related to studies."
                 </p>
                 <div class="author">
                   <img
@@ -209,31 +212,63 @@ if (isset($_POST['registersubmit'])) {
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide">
-            <div class="news-article-card card">
-              <div class="card-body">
-                IMT (Indias Memory test) - Your chance to become a Memory King
-                of India. Registrations Starting Soon
+            <a
+              target="_blank"
+              class="news-link"
+              href="https://timesofindia.indiatimes.com/business/startups/trend-tracking/10-emerging-indian-startup-in-2023-making-big-difference/articleshow/96881409.cms"
+            >
+              <div class="news-article-card card">
+                <div class="card-body">
+                  10 emerging Indian startup in 2023 making big difference
+                </div>
+                <div class="news-publication">
+                  <img
+                    src="/img/news/thetimesofindia.png"
+                    alt="The Times of India"
+                  />
+                </div>
               </div>
-              <div class="news-publication">LOGO</div>
-            </div>
+            </a>
           </div>
           <div class="swiper-slide">
-            <div class="news-article-card card">
-              <div class="card-body">
-                IMT (Indias Memory test) - Your chance to become a Memory King
-                of India. Registrations Starting Soon
+            <a
+              target="_blank"
+              class="news-link"
+              href="https://www.business-standard.com/content/press-releases-ani/brainywood-a-unique-edtech-start-up-focusing-on-stress-free-education-and-memory-training-121112500576_1.html"
+            >
+              <div class="news-article-card card">
+                <div class="card-body">
+                  BrainyWood - A unique Edtech start-up focusing on stress-free
+                  education and memory training
+                </div>
+                <div class="news-publication">
+                  <img
+                    src="/img/news/businessstandard.png"
+                    alt="Business Standard"
+                  />
+                </div>
               </div>
-              <div class="news-publication">LOGO</div>
-            </div>
+            </a>
           </div>
           <div class="swiper-slide">
-            <div class="news-article-card card">
-              <div class="card-body">
-                IMT (Indias Memory test) - Your chance to become a Memory King
-                of India. Registrations Starting Soon
+            <a
+              target="_blank"
+              class="news-link"
+              href="https://www.hindustanmetro.com/brainywood-is-indias-first-4th-dimension-learning-app-that-helps-to-memorise/"
+            >
+              <div class="news-article-card card">
+                <div class="card-body">
+                  BrainyWood is India’s First 4th Dimension Learning App that
+                  helps to memorise.
+                </div>
+                <div class="news-publication">
+                  <img
+                    src="/img/news/hindustanmetro.png"
+                    alt="Hindustan Metro"
+                  />
+                </div>
               </div>
-              <div class="news-publication">LOGO</div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
