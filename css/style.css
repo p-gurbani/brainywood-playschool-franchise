@@ -851,7 +851,7 @@ a.email-link {
   flex-direction: column;
   gap: 20px;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
